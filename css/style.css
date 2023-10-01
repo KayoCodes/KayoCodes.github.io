@@ -1,0 +1,70 @@
+.gradient-background {
+   background-color: rgb(0, 0, 0);
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .intro{
+    color: white;
+  }
+  body{
+    color: black;
+  }
+
+  .nb{
+    background-color: #007bff;
+    color: black;
+  }
+  .out{
+    border-color: #007bff;
+    color: #007bff;
+  }
+  
+  .b1:hover{
+    color:black;
+    background-color: #2f8bee;
+  }
+  .b2:hover{
+    color: black;
+    background-color: #007bff;
+  }
+  .skills{
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  .circle{
+    border-radius: 50%;
+  }
+  .contact{
+    background-color:#007bff;
+    color: white;
+  }
+  #footer{
+    background-color: black;
+  }
+  .cyanC{
+    color: #007bff;
+  }
+  .skills{
+   color:#19244b ; 
+    font-family: 'Martian Mono', monospace;
+    font-size: 35px;
+  }
+  .ab{
+    color: #19244b;
+    font-family: 'Martian Mono', monospace;
+  }
+  .first{
+    color: #19244b;
+    font-family: 'Martian Mono', monospace;
+  }
