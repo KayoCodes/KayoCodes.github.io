@@ -5,7 +5,7 @@ if(!empty($_POST["send"])){
 $email = $_POST["email"];
 $phone = $_POST["phone"];
 $message = $_POST["message"];
-$toMessage = "juskidn2@yahoo.com";
+$toMessage = "keenan.ray@my.utsa.edu";
 
 $mailHeaders = "Name: " . $name . 
 "\r\n Email: " . $email .
